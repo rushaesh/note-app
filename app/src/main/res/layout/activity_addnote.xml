@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bydefult"
+    android:orientation="vertical"
+    android:id="@+id/noteBackground"
+    tools:context=".NotesEditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#817D54"
+                android:padding="12dp"
+                android:layout_gravity="center"
+                android:onClick="backtomainactivity"
+                android:src="@drawable/navigation_back_arrow_svgrepo_com"
+                android:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotommedium"
+            android:gravity="start"
+            android:text="@string/changelanguage"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:visibility="invisible" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#817D54"
+                android:onClick="share"
+                android:padding="11dp"
+                android:src="@drawable/share_ios_export_svgrepo_com"
+                android:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            app:cardCornerRadius="10dp">
+            <ImageView
+                android:id="@+id/manu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#817D54"
+                android:padding="12dp"
+                android:onClick="manu"
+                android:src="@drawable/three_dots_svgrepo_com"
+                android:tint="@color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp">
+            <TextView
+                android:id="@+id/doneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#817D54"
+                android:fontFamily="@font/robotommedium"
+                android:gravity="start"
+                android:padding="12.5dp"
+                android:text="@string/Done"
+                android:textColor="@color/white"
+                android:textSize="14dp" />
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:visibility="visible" />
+
+                <EditText
+                    android:id="@+id/notetitale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_marginVertical="10dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/robotommedium"
+                    android:hint="@string/Notetitle"
+                    android:textColor="@color/white"
+                    android:textColorHint="#7C7C7C"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/notettext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="14dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/robotoregular"
+                    android:hint="@string/Typesomething"
+                    android:textColor="@color/white"
+                    android:textColorHint="#BDBCBC"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:id="@+id/checklistContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="15dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/imagebackground2"
+            android:backgroundTint="#AAAAAA"
+            android:padding="10dp"
+            android:id="@+id/menu"
+            android:src="@drawable/add_svgrepo_com"
+            android:tint="@color/white" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#797555"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:id="@+id/manulayout"
+            android:paddingVertical="15dp">
+
+            <ImageView
+                android:id="@+id/checklist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="checklist"
+                android:src="@drawable/list_check_2_svgrepo_com"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/camera_svgrepo_com"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/image_square_svgrepo_com"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/color_svgrepo_com"
+                android:tint="@color/white" />
+
+            <ImageView
+                android:id="@+id/remider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/calendar_alert_4_svgrepo_com"
+                android:tint="@color/white" />
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:src="@drawable/close_svgrepo_com"
+                android:tint="@color/white" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/undolinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/imagebackground"
+            android:backgroundTint="@color/white"
+            android:paddingVertical="13dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/robotoregular"
+                android:gravity="start"
+                android:text="@string/Itemdeleted"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/undoa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="15dp"
+                android:fontFamily="@font/robotommedium"
+                android:gravity="start"
+                android:text="@string/undo"
+                android:textColor="#6A6A6A"
+                android:textSize="15dp"
+                android:visibility="visible" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nota</string>
+    <string name="setupforfirstuse">Tetapkan untuk penggunaan pertama</string>
+    <string name="changelanguage">Pilih bahasa</string>
+    <string name="select">Tukar bahasa</string>
+    <string name="name">Nama</string>
+    <string name="Date">Tarikh</string>
+    <string name="Grid">Grid</string>
+    <string name="Notes">Nota</string>
+    <string name="Checklist">Senarai Semak</string>
+    <string name="Done">Selesai</string>
+    <string name="Itemdeleted">Item dipadam</string>
+    <string name="undo">BUAT SEMULA</string>
+    <string name="pin">Pin</string>
+    <string name="discardchanges">Buang Perubahan</string>
+    <string name="Delete">Padam</string>
+    <string name="unpin">Nyah pin</string>
+    <string name="unarchive">Nyaharkib</string>
+    <string name="Restore">Pulihkan</string>
+    <string name="RateApp">Nilaikan Aplikasi</string>
+    <string name="ShareApp">Kongsi Aplikasi</string>
+    <string name="Settings">Tetapan</string>
+    <string name="Trash">Sampah</string>
+    <string name="Aechive">Arkib</string>
+    <string name="ratetext">Bagaimana pengalaman anda dengan kami?</string>
+    <string name="maybelater">Mungkin nanti</string>
+    <string name="Data">Data</string>
+    <string name="BackuporRestore">Sandaran atau Pulihkan</string>
+    <string name="Movecheckedtothebottom">Alih yang ditanda ke bawah</string>
+    <string name="CallNote">Nota Panggilan</string>
+    <string name="Showflotingnoteduringcall">Tunjukkan nota terapung semasa panggilan</string>
+    <string name="Shownoteaftercall">Tunjukkan nota selepas panggilan</string>
+    <string name="Security">Keselamatan</string>
+    <string name="EnablePasscode">Aktifkan Kata Laluan</string>
+    <string name="ChangePasscode">Tukar Kata Laluan</string>
+    <string name="English">Inggeris</string>
+    <string name="Other">Lain-lain</string>
+    <string name="Ratethisapp">Nilaikan aplikasi ini</string>
+    <string name="Sharewithfriend">Kongsi dengan rakan</string>
+    <string name="Privacypolicy">Dasar Privasi</string>
+    <string name="list">Senarai</string>
+    <string name="Skip">Langkau</string>
+    <string name="GetStarted">Mula</string>
+    <string name="Next">Seterusnya</string>
+    <string name="TAptoaddnewnote">Ketuk untuk tambah nota baru</string>
+    <string name="Mode">Mod</string>
+    <string name="Lightmode">Mod Cerah</string>
+    <string name="EnterNewPasscode">Masukkan Kata Laluan Baharu</string>
+    <string name="EnterOldPasscode">Masukkan Kata Laluan Lama</string>
+    <string name="ReenterPasscode">Masukkan Semula Kata Laluan</string>
+    <string name="PasscodesdonotmatchEnterNewPasscode">Kata laluan tidak sepadan! Masukkan Kata Laluan Baharu</string>
+    <string name="IncorrectPasscodeTryagain">Kata laluan salah. Cuba lagi.</string>
+    <string name="Areyousureyouwanttodiscardallchanges">Adakah anda pasti mahu membuang semua perubahan?</string>
+    <string name="DiscardChanges">Buang perubahan?</string>
+    <string name="No">Tidak</string>
+    <string name="Notetitle">Tajuk Nota</string>
+    <string name="Typesomething">Taip sesuatu ....</string>
+    <string name="PLEASEBACKAGAINTOEXIT">SILA KEMBALI SEMULA UNTUK KELUAR</string>
+</resources>
+
+

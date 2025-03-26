@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAlignment="viewStart"
+    android:textDirection="ltr">
+    <item
+        android:id="@+id/Archivei"
+        android:icon="@drawable/archive_svgrepo_com"
+        android:iconTint="@color/white"
+        android:layoutDirection="locale"
+        android:textAlignment="viewStart"
+        android:title="@string/Aechive" />
+    <item
+        android:id="@+id/Trash"
+        android:icon="@drawable/delete_2_svgrepo_com"
+        android:iconTint="@color/white"
+        android:textAlignment="viewStart"
+        android:textDirection="ltr"
+        android:title="@string/Trash" />
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/settings_svgrepo_com"
+        android:iconTint="@color/white"
+        android:textAlignment="viewStart"
+        android:textDirection="ltr"
+        android:title="@string/Settings" />
+    <item
+        android:id="@+id/ShareApp"
+        android:icon="@drawable/share_ios_export_svgrepo_com"
+        android:iconTint="@color/white"
+        android:textAlignment="viewStart"
+        android:textDirection="ltr"
+        android:title="@string/ShareApp" />
+    <item
+        android:id="@+id/RateApp"
+        android:icon="@drawable/star_svgrepo_com"
+        android:iconTint="@color/white"
+        android:textAlignment="viewStart"
+        android:textDirection="ltr"
+        android:title="@string/RateApp" />
+</menu>

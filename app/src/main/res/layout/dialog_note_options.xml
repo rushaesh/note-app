@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/textviewbackgrounf"
+    android:layout_margin="20dp"
+    android:layout_weight="1"
+    android:backgroundTint="@color/darkgray"
+    android:padding="15dp">
+
+    <!-- Pin -->
+    <LinearLayout
+        android:id="@+id/layoutPin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/iconPin"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/pin_svgrepo_com"
+            android:layout_marginEnd="10dp"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/textPin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pin"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Archive -->
+    <LinearLayout
+        android:id="@+id/layoutArchive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/iconArchive"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/archive_svgrepo_com"
+            android:layout_marginEnd="10dp"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/textArchive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Archive"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Delete -->
+    <LinearLayout
+        android:id="@+id/layoutDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:clickable="true"
+        android:focusable="true">
+
+        <ImageView
+            android:id="@+id/iconDelete"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/delete_2_svgrepo_com"
+            android:layout_marginEnd="10dp"
+            android:tint="@color/white"/>
+
+        <TextView
+            android:id="@+id/textDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:fontFamily="@font/robotoregular"
+            android:textColor="@color/white"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Notes" parent="Theme.AppCompat.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/main</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.RemoveSplashScreenTheme" parent="Theme.AppCompat.Light">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="CustomDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:backgroundDimAmount">0.5</item> <!-- Dim background -->
+    </style>
+    <style name="Bottom_Sheet_Style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name = "Screen">
+        <item name="background" > @color/white</item>
+    </style>
+    <style name="FragmentStyle">
+        <item name="android:background">#F8F9FA</item> <!-- Light Background -->
+        <item name="android:textColor">#000000</item>  <!-- Black Text -->
+    </style>
+    <style name = "Screen1">
+        <item name="android:background">@color/white</item>
+        <item name="backgroundTint" > @color/white</item>
+    </style>
+    <style name="Textview">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="imageview">
+        <item name="tint">@color/black</item>
+        <item name="backgroundTint">#E2E1E1</item>
+    </style>
+
+    <style name="cardview">
+        <item name="cardBackgroundColor">#E2E1E1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="nagivation">
+        <item name="background">@color/white</item>
+        <item name="backgroundTint">@color/white</item>
+        <item name="itemIconTint">#88888B</item>
+        <item name="itemTextColor">@color/black</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:layoutDirection">ltr</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="langagebackground">
+        <item name="background">@color/white</item>
+        <item name="backgroundTint">@color/background_dark</item>
+    </style>
+    <style name="imagetint">
+        <item name="tint">@color/black</item>
+    </style>
+    <style name="frgmentbackground">
+        <item name="backgroundTint">#E2E1E1</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:backgroundTint">#CDCDCD</item>
+    </style>
+
+    <style name="KeypadButton">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@drawable/keypad_button_bg</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+       <item name="android:layout_marginEnd">25dp</item>
+       <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="PasscodeDot">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:background">@drawable/dot_unfilled</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    
+    <style name="sorting">
+        <item name="cardBackgroundColor">#A9AAAA</item>
+    </style>
+
+        <style name="CustomLinearLayout">
+            <item name="android:layout_width">match_parent</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:orientation">vertical</item>
+            <item name="android:gravity">center</item>
+            <item name="android:padding">16dp</item>
+            <item name="android:background">@drawable/textviewbackgrounf</item>
+            <item name="android:backgroundTint">#ECEAEA</item>
+        </style>
+
+    <style name="CustomLinearLayout2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/textviewbackgrounf</item>
+        <item name="android:backgroundTint">#C8C6C6</item>
+    </style>
+
+</resources>

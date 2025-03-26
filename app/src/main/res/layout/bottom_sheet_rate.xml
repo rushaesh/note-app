@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/twosideconner"
+    android:backgroundTint="#2D2E32">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linner"
+            android:background="@drawable/twosideconner"
+            android:backgroundTint="#2D2E32">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:src="@drawable/ic_launcher"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/robotommedium"
+                android:gravity="center"
+                android:text="@string/ratetext"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"
+                android:id="@+id/star"
+                android:src="@drawable/star2"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/robotommedium"
+                android:gravity="center"
+                android:id="@+id/maybelater"
+                android:text="@string/maybelater"
+                android:layout_gravity="bottom"
+                android:textColor="#9E9C9C"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotommedium"
+            android:gravity="center"
+            android:id="@+id/backagin"
+            android:visibility="gone"
+            android:layout_marginVertical="40dp"
+            android:text="@string/PLEASEBACKAGAINTOEXIT"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </FrameLayout>
+
+
+
+</LinearLayout>

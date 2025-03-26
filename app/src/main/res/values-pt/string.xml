@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="setupforfirstuse">Configurar para primeiro uso</string>
+    <string name="changelanguage">Selecionar idioma</string>
+    <string name="select">Mudar idioma</string>
+    <string name="name">Nome</string>
+    <string name="Date">Data</string>
+    <string name="Grid">Grade</string>
+    <string name="Notes">Notas</string>
+    <string name="Checklist">Lista de Verificação</string>
+    <string name="Done">Concluído</string>
+    <string name="Itemdeleted">Item excluído</string>
+    <string name="undo">DESFAZER</string>
+    <string name="pin">Fixar</string>
+    <string name="discardchanges">Descartar Alterações</string>
+    <string name="Delete">Excluir</string>
+    <string name="unpin">Desafixar</string>
+    <string name="unarchive">Desarquivar</string>
+    <string name="Restore">Restaurar</string>
+    <string name="RateApp">Avaliar App</string>
+    <string name="ShareApp">Compartilhar App</string>
+    <string name="Settings">Configurações</string>
+    <string name="Trash">Lixeira</string>
+    <string name="Aechive">Arquivo</string>
+    <string name="ratetext">Como foi sua experiência conosco?</string>
+    <string name="maybelater">Talvez mais tarde</string>
+    <string name="Data">Dados</string>
+    <string name="BackuporRestore">Backup ou Restaurar</string>
+    <string name="Movecheckedtothebottom">Mover marcados para baixo</string>
+    <string name="CallNote">Nota de Chamada</string>
+    <string name="Showflotingnoteduringcall">Mostrar nota flutuante durante a chamada</string>
+    <string name="Shownoteaftercall">Mostrar nota após a chamada</string>
+    <string name="Security">Segurança</string>
+    <string name="EnablePasscode">Ativar Código de Acesso</string>
+    <string name="ChangePasscode">Alterar Código de Acesso</string>
+    <string name="English">Inglês</string>
+    <string name="Other">Outro</string>
+    <string name="Ratethisapp">Avalie este aplicativo</string>
+    <string name="Sharewithfriend">Compartilhar com amigo</string>
+    <string name="Privacypolicy">Política de Privacidade</string>
+    <string name="list">Lista</string>
+    <string name="Skip">Pular</string>
+    <string name="GetStarted">Começar</string>
+    <string name="Next">Próximo</string>
+    <string name="TAptoaddnewnote">Toque para adicionar uma nova nota</string>
+    <string name="Mode">Modo</string>
+    <string name="Lightmode">Modo Claro</string>
+    <string name="EnterNewPasscode">Digite um Novo Código de Acesso</string>
+    <string name="EnterOldPasscode">Digite o Código de Acesso Antigo</string>
+    <string name="ReenterPasscode">Digite Novamente o Código de Acesso</string>
+    <string name="PasscodesdonotmatchEnterNewPasscode">Os códigos de acesso não correspondem! Digite um Novo Código</string>
+    <string name="IncorrectPasscodeTryagain">Código de acesso incorreto. Tente novamente.</string>
+    <string name="Areyousureyouwanttodiscardallchanges">Tem certeza de que deseja descartar todas as alterações?</string>
+    <string name="DiscardChanges">Descartar alterações?</string>
+    <string name="No">Não</string>
+    <string name="Notetitle">Título da nota</string>
+    <string name="Typesomething">Digite algo ....</string>
+    <string name="PLEASEBACKAGAINTOEXIT">POR FAVOR, VOLTE NOVAMENTE PARA SAIR</string>
+
+
+</resources>
+

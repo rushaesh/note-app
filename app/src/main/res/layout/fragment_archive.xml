@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            style="@style/imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/imagebackground"
+            android:padding="12dp"
+            android:src="@drawable/navigation_back_arrow_svgrepo_com" />
+
+        <EditText
+            android:id="@+id/searchEditText"
+            style="@style/frgmentbackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/imagebackground"
+            android:fontFamily="@font/robotommedium"
+            android:hint="Search"
+            android:padding="10dp"
+            android:textColorHint="#5E5D5D" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp" />
+
+        <TextView
+            android:id="@+id/nodata"
+            android:textColor="#5E5D5D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/robotommedium"
+            android:gravity="center"
+            android:text="No Data Found"
+            android:textSize="18sp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+
+</LinearLayout>

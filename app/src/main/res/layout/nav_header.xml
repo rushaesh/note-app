@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_gravity="left"
+    style="@style/Screen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/robotommedium"
+        android:gravity="left"
+        android:paddingHorizontal="18dp"
+        android:text="@string/Notes"
+        style="@style/Textview"
+        android:textSize="22dp" />
+</LinearLayout>

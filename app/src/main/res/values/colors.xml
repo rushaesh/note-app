@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#CAC8C8</color>
+    <color name="bydefult">#625C29</color>
+    <color name="darkgreen">#625C29</color>
+    <color name="darkgray">#2D2E32</color>
+    <color name="dargray">#B9B8B8</color>
+    <color name="tcolor">#5C4B25</color>
+    <color name="fcolor">#3D572A</color>
+    <color name="ficolor">#294F4B</color>
+    <color name="scolor">#38545C</color>
+    <color name="secolor">#1f3A5B</color>
+    <color name="eicolor">#3E2A5A</color>
+    <color name="nicolor">#552D2B</color>
+    <color name="tecolor">#625C29</color>
+    <color name="main">#C17B20</color>
+    <color name="graytwo">#8A8660</color>
+    <color name="background_light">#C8E3F6</color>
+    <color name="background_dark">#0E1A2C</color>
+    <color name="bydefult2">#817D54</color>
+    <color name="darkgray2">#57585A</color>
+    <color name="tcolor2">#7D6F51</color>
+    <color name="fcolor2">#647955</color>
+    <color name="ficolor2">#54726F</color>
+    <color name="scolor2">#60767D</color>
+    <color name="secolor2">#4C617C</color>
+    <color name="eicolor2">#65557B</color>
+    <color name="nicolor2">#775755</color>
+    <color name="tecolor2">#817D54</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="25dp"
+    app:cardBackgroundColor="@color/darkgray"
+    android:padding="15dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="10dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Screen"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:textSize="18dp"
+                android:id="@+id/titale"
+                android:layout_marginHorizontal="15dp"
+                android:text="Are you sure delete item ??"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/yesbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:backgroundTint="#101010"
+                    android:textColor="@color/white"
+                    app:textAllCaps="false"
+                    android:layout_margin="15dp"
+                    android:text="@string/No" />
+                <Button
+                    android:id="@+id/nobytton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="15dp"
+                    app:textAllCaps="false"
+                    android:backgroundTint="#E8E8E8"
+                    android:textColor="@color/black"
+                    android:text="@string/Delete" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
