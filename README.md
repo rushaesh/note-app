@@ -33,7 +33,7 @@ Clone this repository:
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/note-app.git
+git clone https://github.com/rushaesh/note-app
 Open in Android Studio and sync Gradle.
 
 Run the app on an emulator or physical device.
